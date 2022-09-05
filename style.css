@@ -1,0 +1,119 @@
+* {
+    /* box-sizing: border-box
+    margin: 0;
+    padding: 0; */
+}
+
+body {
+    background: black;
+    color: white;
+    margin: 0px;
+}
+
+.picture {
+    background-image: url(001.jpg);
+    background-size: 100%;
+    padding-top: 20px;
+}
+
+header {
+    display: flex;
+}
+
+.nav label {
+    font-size: 35px;
+    padding-left: 40px;
+}
+
+.items{
+    padding-left: 320px;
+}
+
+.ilabel {
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.main {
+    background: white;
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.think {
+    /* background-repeat: no-repeat; */
+    /* background-image: url(001.jpg);
+    background-size: 100%; */
+    color: white;
+    height: 300px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+}
+
+.visit {
+    background: #2AC9E4;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    height: 50px;
+    width: 100px;
+}
+
+.why {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.choose {
+    background: #E9F2FB;
+    color: black;
+    height: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.white {
+    background: white;
+    color: black;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    text-align: center;
+}
+
+.white div {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.white button {
+    font-size: 11px;
+}
+
+.more {
+    border: 0;
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+}
+
+footer {
+    align-items: center;
+    background: #292E32;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer img{
+    cursor: pointer;
+    height: 15px;
+    width: 10px;
+}
